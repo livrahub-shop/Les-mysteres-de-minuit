@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Les Mystères de Minuit – Guide PDF</title>
+  <meta name="description" content="Les secrets bibliques pour briser les blocages à minuit et reprendre le contrôle de ta destinée spirituelle." />
+
+  <script>
+    ! function(f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function() {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '900260752558962');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=900260752558962&ev=PageView&noscript=1" />
+  </noscript>
+  <style>
+    :root {
+      --bg-dark: #05050A;
+      --bg-section: #0D0E1A;
+      --gold-premium: #C5A059;
+      --cta-color: #E6B325;
+      --text-main: #E0E0E0;
+      --card-bg: #151726;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg-dark);
+      color: var(--text-main);
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    header {
+      padding: 80px 20px;
+      text-align: center;
+      background: radial-gradient(circle at center, #16182d 0%, var(--bg-dark) 100%);
+      border-bottom: 1px solid rgba(197, 160, 89, 0.1);
+    }
+
+    header img {
+      max-width: 180px;
+      margin-bottom: 20px;
+    }
+
+    .brand-tag {
+      font-size: 0.9rem;
+      color: var(--gold-premium);
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      color: var(--gold-premium);
+      font-family: 'Georgia', serif;
+      letter-spacing: -1px;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      color: var(--gold-premium);
+      font-family: 'Georgia', serif;
+      margin-bottom: 25px;
+    }
+
+    .subtitle {
+      font-size: 1.2rem;
+      margin-top: 10px;
+      color: #aaa;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .cta-btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 20px 45px;
+      background: var(--cta-color);
+      color: #000;
+      font-weight: 800;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: all 0.3s ease;
+      box-shadow: 0 10px 20px rgba(230, 179, 37, 0.2);
+      animation: float 2.5s ease-in-out infinite;
+    }
+
+    .cta-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 15px 30px rgba(230, 179, 37, 0.4);
+      background: #ffc107;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0) }
+      50% { transform: translateY(-6px) }
+      100% { transform: translateY(0) }
+    }
+
+    section { padding: 80px 20px; }
+    .dark { background: var(--bg-section); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
+    .card { background: var(--card-bg); padding: 30px; border-radius: 4px; border: 1px solid rgba(197, 160, 89, 0.1); transition: border 0.3s ease; }
+    .card:hover { border-color: var(--gold-premium); }
+    .card h3 { color: var(--gold-premium); margin-top: 0; font-family: 'Georgia', serif; }
+
+    .price-box {
+      background: var(--card-bg);
+      border: 1px solid var(--gold-premium);
+      padding: 60px 30px;
+      border-radius: 4px;
+      text-align: center;
+      position: relative;
+      max-width: 500px;
+      margin: auto;
+    }
+
+    .old-price { text-decoration: line-through; color: #888; font-size: 1.2rem; }
+    .new-price { font-size: 2.1rem; color: #fff; font-weight: bold; margin: 10px 0; }
+
+    @media (max-width: 640px) {
+      .new-price { font-size: 1.8rem; }
+      .old-price { font-size: 1rem; }
+    }
+
+    .badge { background: #b11226; color: #fff; padding: 6px 15px; border-radius: 2px; font-size: 0.8rem; font-weight: bold; display: inline-block; margin-bottom: 15px; }
+    .testimonial-card { background: rgba(255, 255, 255, 0.03); border-left: 3px solid var(--gold-premium); padding: 25px; margin-bottom: 25px; }
+    .stars { color: var(--gold-premium); margin-bottom: 10px; }
+    .author { display: block; margin-top: 10px; font-weight: bold; color: var(--gold-premium); }
+    footer { text-align: center; padding: 40px 20px; font-size: 0.9rem; color: #555; border-top: 1px solid rgba(255, 255, 255, 0.05); }
+    .success-badge { background: #2ecc71; color: #fff; padding: 5px 12px; border-radius: 20px; font-size: 0.8rem; display: inline-block; }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <img src="https://i.ibb.co/YBSpL9x5/public.png" alt="Livrahub Logo" />
+    <div class="brand-tag">Livrahub • Guide spirituel</div>
+    <div class="success-badge">📘 PDF instantané</div>
+    <h1>Les Mystères de Minuit</h1>
+    <p class="subtitle">Les secrets bibliques pour briser les blocages à minuit et reprendre le contrôle de ta destinée</p>
+    <a href="#offre" class="cta-btn">Accéder au guide maintenant</a>
+  </header>
+
+  <section class="container">
+    <div class="grid">
+      <div>
+        <img src="https://i.ibb.co/d0xykrX7/1000193091-Picsart-Ai-Image-Enhancer-1.png" alt="Couverture du guide" style="max-width:100%; border: 1px solid rgba(197,160,89,0.3); border-radius:4px; box-shadow: 0 20px 40px rgba(0,0,0,0.5);" />
+      </div>
+      <div style="display:flex; flex-direction:column; justify-content:center;">
+        <h2>Pourquoi tant de combats se passent pendant la nuit ?</h2>
+        <p>La nuit n’est pas un moment ordinaire. Pendant que beaucoup dorment, le monde spirituel est en pleine activité. C’est souvent à minuit que se placent les blocages, les retards et les attaques invisibles.</p>
+        <p><strong>Ce guide te révèle comment te lever au bon moment, avec les bonnes armes spirituelles, pour inverser la situation.</strong></p>
+        <a href="#offre" class="cta-btn">Je veux reprendre le contrôle</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="dark">
+    <div class="container">
+      <h2 style="text-align:center">Ce guide est fait pour toi si :</h2>
+      <div class="grid">
+        <div class="card">Tu pries mais tu ressens encore des blocages et des retards.</div>
+        <div class="card">Tu fais des cauchemars ou ressens une oppression la nuit.</div>
+        <div class="card">Tu veux comprendre quoi prier et comment prier à minuit.</div>
+        <div class="card">Tu veux protéger ta famille et ta destinée spirituelle.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2 style="text-align:center">Ce que tu vas découvrir dans ce guide</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Le mystère de minuit</h3>
+        <p>Pourquoi Dieu agit puissamment entre 00h et 03h selon la Bible (Réf : Paul et Silas, Israel délivré à minuit,...)</p>
+      </div>
+      <div class="card">
+        <h3>Les bénéfices spirituels</h3>
+        <p>Les 4 puissantes armes spirituelles pour Briser les chaînes, débloquer les bénédictions et recevoir des révélations.</p>
+      </div>
+      <div class="card">
+        <h3>Préparation efficace</h3>
+        <p>Comment te préparer spirituellement et physiquement pour prier avec impact et confiance.</p>
+      </div>
+      <div class="card">
+        <h3>Prières prêtes à l’emploi</h3>
+        <p>Plus de 40 modèles de prières puissantes classées par thème : Délivrance, protection, finances, destinée et paix intérieure.</p>
+      </div>
+      <div class="card">
+        <h3>Programmes de veillées</h3>
+        <p>Plans clairs d’1h et 3h pour rester concentré et efficace.</p>
+      </div>
+      <div class="card">
+        <h3>Erreurs à éviter</h3>
+        <p>Ce qui annule la puissance de la prière de minuit.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="dark">
+    <div class="container">
+      <h2 style="text-align:center">Ce que ce guide va produire dans ta vie</h2>
+      <div class="grid">
+        <div class="card">✔ Reprendre l’avantage dans les combats spirituels</div>
+        <div class="card">✔ Neutraliser les attaques nocturnes</div>
+        <div class="card">✔ Installer une atmosphère de paix et de protection</div>
+        <div class="card">✔ Poser les bases d’une victoire durable</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2 style="text-align:center">Ils ont repris le contrôle</h2>
+    <div class="grid">
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p>"J'avais deux dossiers de commerce bloqués depuis des mois. J'ai appliqué les prières du chapitre 1 à minuit. Une semaine après, tout a été débloqué miraculeusement !"</p>
+        <span class="author">— Junior M., Lubumbashi</span>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p>"Mes nuits étaient un calvaire avec des rêves bizarres. Grâce aux conseils de protection du livre, je dors enfin en paix. Ma santé s'est restaurée."</p>
+        <span class="author">— Maman Sylvie, Kinshasa</span>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p>"Il y avait trop de divisions chez moi. En devenant une 'sentinelle' à minuit, l'atmosphère de ma maison a changé."</p>
+        <span class="author">— Priscille K., Goma</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="offre" class="dark" style="text-align:center">
+    <div class="price-box">
+      <span class="badge">OFFRE LIMITÉE</span>
+      <p id="countdown" style="margin:10px 0; color:#ff4d4d; font-weight:bold"></p>
+      <h2>Accède au guide maintenant</h2>
+      <p class="old-price">10 $ / 24.000 FC</p>
+      <p class="new-price">5 $ / 12.000 FC</p>
+      <p style="font-size:0.9rem">🔒 Paiement sécurisé via M-Pesa, Orange Money et Airtel Money</p>
+      <a href="https://livrahub-6.mymaketou.store/fr/products/le-mystere-de-minuit/checkout" class="cta-btn">Obtenir le guide maintenant</a>
+      <p style="margin-top:20px; font-size:0.8rem; color:#888">Après le paiement, ton guide sera disponible instantanément en téléchargement puis, envoyé dans ta boîte mail.</p>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2 style="text-align:center">Questions fréquentes</h2>
+    <div class="grid">
+      <div class="card"><strong>Ce guide est-il réservé aux pasteurs ?</strong><br />Non. Pour toute personne qui veut pratiquer la prière stratégique.</div>
+      <div class="card"><strong>Vais-je recevoir le guide immédiatement ?</strong><br />Oui. Le guide PDF est disponible immédiatement en téléchargement après paiement.</div>
+      <div class="card"><strong>Quels moyens de paiement ?</strong><br />MasterCard, Visa, M-Pesa, Orange Money et Airtel Money via la boutique.</div>
+    </div>
+  </section>
+
+  <section class="dark" style="border-top: 1px solid rgba(197,160,89,0.2);">
+    <div class="container" style="text-align:center">
+      <div style="max-width:700px; margin:auto">
+        <img src="https://cdn-icons-png.flaticon.com/512/991/991950.png" alt="Garantie" style="width:60px; filter: sepia(1) saturate(5) hue-rotate(10deg); margin-bottom:20px;">
+        <h2 style="margin-top:0">Garantie 7 jours – Zéro risque</h2>
+        <p>Lis le guide, applique les enseignements et mets-les en pratique. Si tu estimes qu’il ne t’a apporté aucune valeur spirituelle, tu peux demander un remboursement sous 7 jours.</p>
+        <p style="color:var(--gold-premium); font-weight:bold">Tu ne risques rien. Mais tu peux gagner énormément.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="dark">
+    <p>© Livrahub – Tous droits réservés</p>
+  </footer>
+
+  <script>
+    const end = new Date().getTime() + 24 * 60 * 60 * 1000;
+    const timer = setInterval(() => {
+      const now = new Date().getTime();
+      const d = end - now;
+      if (d <= 0) {
+        document.getElementById('countdown').innerHTML = 'Offre expirée';
+        clearInterval(timer);
+        return;
+      }
+      const h = Math.floor((d % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const m = Math.floor((d % (1000 * 60 * 60)) / (1000 * 60));
+      const s = Math.floor((d % (1000 * 60)) / 1000);
+      document.getElementById('countdown').innerHTML = `Fin de la promo dans : ${h}h ${m}m ${s}s`;
+    }, 1000);
+  </script>
+
+</body>
+</html>
